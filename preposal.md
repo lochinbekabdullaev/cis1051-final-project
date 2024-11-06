@@ -2,7 +2,9 @@
 
 ## What idea(s) do you have for your final project?
 
-A Discord Bot
+A discord bot
+
+A minecraft mod
 
 ## If you plan to collaborate with one or two classmates, what are their names?
 
