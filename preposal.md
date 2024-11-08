@@ -2,9 +2,7 @@
 
 ## What idea(s) do you have for your final project?
 
-A discord bot
-
-A minecraft mod
+A music discord bot that plays music when you enter a youtube URL
 
 ## If you plan to collaborate with one or two classmates, what are their names?
 
