@@ -11,6 +11,23 @@ async def on_ready():
     print("Bot has connected to Discord")
 
 
+@bot.event
+async def on_message(message):
+    quite_phrases = ["shareef no one asked", ":shushing_face:"]
+    rand_quite_phrases = random.choice(quite_phrases)
+    ignored_commands = ["!dice", "!weather"]
+
+    if message.author == bot.user:
+        return
+
+    if any(message.content.startswith(command) for command in ignored_commands):
+        await bot.process_commands(message)
+        return
+
+    if message.author.id == 384350811989213196 and random.random() < 0.2:
+        await message.channel.send(rand_quite_phrases)
+
+
 @bot.command()
 async def dice(ctx: commands.Context):
     rolled_dice = random.randint(1, 6)
