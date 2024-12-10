@@ -24,7 +24,7 @@ async def on_message(message):
         await bot.process_commands(message)
         return
 
-    if message.author.id == 384350811989213196 and random.random() < 0.2:
+    if message.author.id == {INSERT USER'S DISCORD ID} and random.random() < 0.2:
         await message.channel.send(rand_quite_phrases)
 
 
