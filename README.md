@@ -28,9 +28,11 @@ is very satisfactory.
 
 
 DISCORD BOT COMMANDS:
+
 !dice - this command rolls a dice between 1-6, and it displays a dice emoji before the number. Ex. :game_die: 2
 
 !weather {input city name here} - this command shows an embed with the weather for the city, humidity, temperature, and wind speeds. 
+
 
 CREDITS:
 https://www.youtube.com/watch?v=sqTi1kfMvzU
