@@ -20,7 +20,11 @@ on a city in the United States. From the experience I had in my python class, an
 I knew how to make a dice roll, which I did. Then I had to search up a youtube tutorial on how to create a bot that can
 display weather info, and I found the perfect video. However, I had to use a different package called nextcord instead of
 discord.py. But, luckily, both packages were similar, so no issues with that. The person writing the code was explaining 
-what he was doing and it was helpful.
+what he was doing and it was helpful. I added one last thing, and I want to give a background on this. So, me and my friends
+have a groupchat, just to hang out, and I have this one friend that I like messing with, so I added some code so that 
+whenever my friend messages in the server, my bot responds with one of the three phrases: "shareef no one asked", 
+":shushing_face:". I found this hilarious, and I can't wait to see his reaction when I add the bot
+into our friend server.
 
 Overall, I am statisfied with what I created, and I am planning on developing bots in the future because I had much fun
 in struggling and finding solutions to my problems. Also, I find it really cool coding a bot and it doing something, it 
@@ -32,6 +36,10 @@ DISCORD BOT COMMANDS:
 !dice - this command rolls a dice between 1-6, and it displays a dice emoji before the number. Ex. :game_die: 2
 
 !weather {input city name here} - this command shows an embed with the weather for the city, humidity, temperature, and wind speeds. 
+
+
+YOUTUBE VIDEO SHOWCASING PROJECT:
+https://youtu.be/vg-K1iw9ph8
 
 
 CREDITS:
