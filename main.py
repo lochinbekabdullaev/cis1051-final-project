@@ -38,7 +38,7 @@ async def dice(ctx: commands.Context):
 async def weather(ctx: commands.Context, *, city):
     url = "https://api.weatherapi.com/v1/current.json"
     params = {
-        "key": '238f06413f374673b2715416241012',
+        "key": {WEATHER API KEY HERE},
         "q": city
     }
 
